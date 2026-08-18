@@ -67,41 +67,34 @@
 
 
 
-// Second Largest Using for loop :-
-#include<iostream>
-using namespace std;
-int main()
-{
-    int n;
-    cout<<"Enter the length of an array : ";
-    cin>>n;
-    int arr[n];
-    for(int i=0;i<n;i++){
-        cout<<"Enter the element of an array : ";
-        cin>>arr[i];
-    }
-    int largest=arr[0];
-    int secondLargest=0;
-    if(n==1){
-        cout<<"Single element array --- there is no second largest";
-    }
-    else{
-        for(int i=0;i<n;i++){
-            if(arr[i]>largest){
-                secondLargest=largest;
-                largest=arr[i];
-            }
-            else if(arr[i]<largest && arr[i]>secondLargest){
-                secondLargest=arr[i];
-            }
-        }
-    }
-    cout<<"Second Largest = "<<secondLargest<<endl;
-}
-
-
-
-
-
-
-
+// Second Largest Using for loop for positive numbers :-
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int n;
+//     cout<<"Enter the length of an array : ";
+//     cin>>n;
+//     int arr[n];
+//     for(int i=0;i<n;i++){
+//         cout<<"Enter the element of an array : ";
+//         cin>>arr[i];
+//     }
+//     int largest=arr[0];
+//     int secondLargest=0;
+//     if(n==1){
+//         cout<<"Single element array --- there is no second largest";
+//     }
+//     else{
+//         for(int i=0;i<n;i++){
+//             if(arr[i]>largest){
+//                 secondLargest=largest;
+//                 largest=arr[i];
+//             }
+//             else if(arr[i]<largest && arr[i]>secondLargest){
+//                 secondLargest=arr[i];
+//             }
+//         }
+//     }
+//     cout<<"Second Largest = "<<secondLargest<<endl;
+// }

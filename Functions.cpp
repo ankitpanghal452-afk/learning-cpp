@@ -97,22 +97,23 @@
 
 
 
-#include<iostream>
-using namespace std;
-int multiply(int a,int b);
-int main()
-{
-    int x,y;
-    cout<<"Enter the first number : ";
-    cin>>x;
-    cout<<"Enter the second number : ";
-    cin>>y;
-    int result;
-    result=multiply(x,y);
-    cout<<"Multiplication of two numbers is = "<<result;
-    cout<<endl;
-    return 0;
-}
-int multiply(int a,int b){
-    return a*b;
-}
+// Multiplication Function:-
+// #include<iostream>
+// using namespace std;
+// int multiply(int a,int b);
+// int main()
+// {
+//     int x,y;
+//     cout<<"Enter the first number : ";
+//     cin>>x;
+//     cout<<"Enter the second number : ";
+//     cin>>y;
+//     int result;
+//     result=multiply(x,y);
+//     cout<<"Multiplication of two numbers is = "<<result;
+//     cout<<endl;
+//     return 0;
+// }
+// int multiply(int a,int b){
+//     return a*b;
+// }
